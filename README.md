@@ -4,7 +4,8 @@ A simple lexical analyzer created for a COMP 360 project following a particular 
 This program was created by Eli Lewis, Zachary Solomon, and myself for a Programming Languages class project
 
 The EBNF grammar this program follows is:
-<program>     ->    <keyword> <funcname>(){<declare> <stmts>}
+
+`<program>     ->    <keyword> <funcname>(){<declare> <stmts>}
 <keyword>     ->    float
 <declare>     ->    float <ident>;
               |     float <ident>, <declarident>
@@ -16,7 +17,8 @@ The EBNF grammar this program follows is:
 <expr>        ->    <ident> {+|-} <expr>
               |     <ident>
 <funcname>    ->    <ident>
-<ident>       ->    a<ident> | b<ident> |...| z<ident> | ε
+<ident>       ->    a<ident> | b<ident> |...| z<ident> | ε `
+
 
 
 
