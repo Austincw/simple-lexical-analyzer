@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/awashington/CLionProjects/COMP322 Project 1/Parser.h
+stdio.h
+-
+
+/Users/awashington/CLionProjects/COMP322 Project 1/main.cpp
+stdio.h
+-
+iostream
+-
+fstream
+-
+Parser.h
+/Users/awashington/CLionProjects/COMP322 Project 1/Parser.h
+
